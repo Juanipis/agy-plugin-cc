@@ -1,0 +1,21 @@
+{
+  "name": "juanipis-agy",
+  "owner": {
+    "name": "juanipis"
+  },
+  "metadata": {
+    "description": "Agy plugins to use in Claude Code for delegation and code review.",
+    "version": "1.0.7"
+  },
+  "plugins": [
+    {
+      "name": "agy",
+      "description": "Use Agy (Google Antigravity CLI) from Claude Code to review code or delegate tasks.",
+      "version": "1.0.7",
+      "author": {
+        "name": "juanipis"
+      },
+      "source": "./plugins/agy"
+    }
+  ]
+}
